@@ -16,8 +16,8 @@ module controlunit_tb;
       .OpCode(OpCode),
       .Funct3(Funct3),
       .Funct7(Funct7),
-      .RUWr  (RUWr),
-      .ALUOp (ALUOp),
+      .RUWr(RUWr),
+      .ALUOp(ALUOp),
       .ImmSrc(ImmSrc),
       .ALUASrc(ALUASrc),
       .ALUBSrc(ALUBSrc),
@@ -30,54 +30,42 @@ module controlunit_tb;
   initial begin
     $dumpfile("dump.vcd");
     $dumpvars(0, controlunit_tb);
-
-    // Integer Computational Instructions
-    // ADD
+    // Test case 1 SUB
     OpCode = 7'b0110011;
     Funct3 = 3'b000;
-    Funct7 = 7'b0000000;
+    Funct7 = 7'b0100000;
     #10;  // Wait for 10 time units
-
-    // Load Instructions
-    // LW
-    OpCode = 7'b0000011;
-    Funct3 = 3'b010;
-    Funct7 = 7'b0000000;
-    #10;  // Wait for 10 time units
-
-    // Store Instructions
-    // SW
-    OpCode = 7'b0100011;
-    Funct3 = 3'b010;
-    Funct7 = 7'b0000000;
-    #10;  // Wait for 10 time units
-
-    // Immediate Instructions
     // ADDI
     OpCode = 7'b0010011;
     Funct3 = 3'b000;
     Funct7 = 7'b0000000;
     #10;  // Wait for 10 time units
+    //beq
+    OpCode = 7'b1100011;
+    Funct3 = 3'b000;
+    Funct7 = 7'b0000000;
+    #10;  // Wait for 10 time units
 
-    // Control Transfer Instructions
-    // JALR
+    //sw
+    OpCode = 7'b0100011;
+    Funct3 = 3'b010;
+    Funct7 = 7'b0000000;
+    #10;  // Wait for 10 time units
+    //jalr
     OpCode = 7'b1100111;
     Funct3 = 3'b000;
     Funct7 = 7'b0000000;
     #10;  // Wait for 10 time units
-
-    // Unconditional Jump Instructions
-    // J
+    //jal
     OpCode = 7'b1101111;
     Funct3 = 3'b000;
-    Funct7 = 7'b0000000;
-    #10;  // Wait for 10 time units
-
-    //LUI
+    Funct7 = 7'b0100000;
+    #10;
+    //u
     OpCode = 7'b0110111;
     Funct3 = 3'b000;
     Funct7 = 7'b0000000;
-    #10;  // Wait for 10 time units
+    #10;
   end
 
 endmodule

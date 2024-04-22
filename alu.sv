@@ -1,12 +1,11 @@
 // Code your design here
-module alu(
-  input logic [31:0] A,
-  input logic [31:0] B,
-  input logic [3:0] ALUOp,
-  output logic [31:0] S
+module alu (
+    input  logic [31:0] A,
+    input  logic [31:0] B,
+    input  logic [ 3:0] ALUOp,
+    output logic [31:0] S
 );
-  always @ (A, B, ALUOp)
-  begin
+  always @(A, B, ALUOp) begin
     case (ALUOp)
       4'b0000: S = A + B;
       4'b1000: S = A - B;

@@ -12,7 +12,7 @@ module controlunit (
     output logic [4:0] BrOp,
     output logic [1:0] RUDataWrSrc
 );
-  assign RUWr = OpCode[4:2] == 3'b100;
+  assign RUWr = OpCode[5:2] != 4'b1000;
 
   always @* begin
     if (OpCode == 7'b0110011 || OpCode == 7'b0010011)
