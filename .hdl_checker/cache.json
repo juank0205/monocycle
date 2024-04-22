@@ -1,0 +1,1044 @@
+{
+ "builder": {
+  "_version": "<undefined>",
+  "_logger": "hdl_checker.builders.fallback",
+  "_work_folder": "/home/juank/dev/verilog/monocycle/.hdl_checker",
+  "_builtin_libraries": [],
+  "_added_libraries": [
+   {
+    "name": "not_in_project",
+    "case_sensitive": true,
+    "__class__": "Identifier"
+   },
+   {
+    "name": "default_library",
+    "case_sensitive": false,
+    "__class__": "Identifier"
+   }
+  ],
+  "__class__": "Fallback"
+ },
+ "config_file": [
+  {
+   "name": "/tmp/hdl_checker_project_pid11792.json",
+   "__class__": "Path"
+  },
+  1713489668.1339355,
+  "generated"
+ ],
+ "database": {
+  "sources": [
+   {
+    "path": {
+     "name": "/home/juank/dev/verilog/monocycle/inst_memory_tb.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1713481662.642103,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/juank/dev/verilog/monocycle/inst_memory.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1713489737.1286578,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/juank/dev/verilog/monocycle/registerunit.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1713476594.141209,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/juank/dev/verilog/monocycle/pc.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1713480114.2686596,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/juank/dev/verilog/monocycle/mono.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1713302361.08581,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   },
+   {
+    "path": {
+     "name": "/home/juank/dev/verilog/monocycle/alu.sv",
+     "__class__": "Path"
+    },
+    "mtime": 1713475553.7948833,
+    "flags": {
+     "source_specific": [],
+     "single": [],
+     "dependencies": []
+    },
+    "dependencies": [],
+    "diags": []
+   }
+  ],
+  "inferred_libraries": [
+   {
+    "name": "/tmp/tmpst3s3jck.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpcoo488ow.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/juank/dev/verilog/monocycle/pc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp034j8721.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0tahlz8n.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp42o6t5ii.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpxn2w_k4r.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp84fsbzej.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpa1jjktk4.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgpg0p5ed.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpi1uh6crc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp206ebkdm.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_tvn4tyt.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpwrc2xjwr.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpd6n0yi3z.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpkxypr5m_.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp7lc9a9lc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpr1_zcmlw.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmptx8gge7e.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpseb1jxl3.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpt0unb6jg.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpis_y_1rc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpcbdep7gw.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp1hta0b28.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpoxr2i4qc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp37og2ont.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp09aush6e.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0p65v_hi.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp6iv8az9v.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpiwszn536.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp729r9gcj.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgjj29gco.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp6dajxvzq.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgbgxm3tz.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmphy3o2zpr.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpg1l5x0zr.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjt7nc1qb.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpx7v663v0.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpdtzhl0af.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgo2f9iwb.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp6yjv56ya.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/juank/dev/verilog/monocycle/inst_memory_tb.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpc5q6wkay.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp6aa_p3sy.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpmt2aupl1.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpq03ukfda.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp31e6vhs2.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpx_wxgs72.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpfbglz2n3.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpk85a_h5a.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpznqvv_6r.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0w4_d7zc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpviln82ck.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpr07e_6q0.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp8j8wini8.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpn7vvbrlu.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpslizuao1.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp8n53agk3.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpg9b88giy.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpe9xa5j36.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2b9uo614.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpx0mx0i34.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpkqujduj_.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpcwhepuvv.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpfc1mq3ft.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjuthrt9q.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpt3ke38hl.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpz4ok002u.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpy5ew2ma0.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpt0ktxfph.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp9p_sjv1a.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpdwpqnv0s.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpbc0ns0jo.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpsmm52brv.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpp03xoplz.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp68ijxl__.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpeqfols_6.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpc4wbp034.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpz8zn2d7e.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/home/juank/dev/verilog/monocycle/inst_memory.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpk5en_v21.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpunejxsa1.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpc0bjylqk.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpnovhd9ml.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpoaoqfkbt.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpnd32arjt.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpmz_6ey2i.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpv9req6jb.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpyjr290qs.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp3sjb62gh.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpdq8x6kgk.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpdrpu1go4.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp26v6i1ry.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgpwx119_.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpfyig_xie.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_vziqjsf.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmphdauc_3j.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpq028d2nd.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpsz16xh3a.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjyksxs0a.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpck763lpi.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpdmcq748_.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpczi1mzhr.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpfxv8rcdc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgtjzfwa5.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmphn4972zh.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpy9rm4xg2.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpkbe8wz1m.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpbj_scj6n.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpuh91p5tn.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpq6logesr.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmptpgpble5.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_5z44jbv.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpi6if6tar.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpt98rqftb.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpd9gtk52e.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp2eai77xi.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpcu15cohf.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjov0v25z.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpfgsripqa.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmprfdvsmeb.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp4a8u7jyc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpf2a01l96.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmptg9u5_sm.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpre8o6smj.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpzv2w198z.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmphl9zyhb0.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpois1423g.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp32dboin2.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpx2dh5gnn.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpm0w4xsk_.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpans9v8pz.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp4ae2x9pb.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgh5e2q2p.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmprf36qbxc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp1cxuu9rs.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpu9gwlo0i.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmps_k8parh.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpw0czgoqm.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmptbwzaasw.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpscqn09q8.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpgjyd8ssa.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpt5vb6bcb.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpg6osi5ev.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmph7r5xc0i.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmppudclotf.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpu8rihpmc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpzh4aoxdv.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpan8e_6xd.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpdwjz30e2.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpcwbdypr0.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp9e6rdjii.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpb_8c6k3e.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0wb8v1w4.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp9ceqqzen.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpbuvns2v7.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpsuqm45i2.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpc6ktqfy_.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpx_bansbn.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpihez24qn.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpnf0p04ap.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpij7vtlvz.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmprz12scxp.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmps9cylokc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp360u6g4y.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp92pp1u7j.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpd4wajs5h.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpdeekgpse.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpvxrd4581.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmple86d96c.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpd716aimj.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpf3lqy_by.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp0eru1p6d.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp7f6p7jpr.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmphgnugm1l.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmppnxlh975.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpsg756wvt.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpt_vhhwdx.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmptq99a1i4.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpyra17i7v.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpr41yl_ft.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpiolzpfd1.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjfpdyv01.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpzevuz1pe.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpub2fzjtg.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp6gk8rngj.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp_pio1tso.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpmknm1i_g.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpa9vhedkx.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmphay9iuyn.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpube0ixov.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpt5d8k3xc.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpjw7vh95n.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp52qvyn0q.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpj2oubjiv.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmpu7usoz4i.sv",
+    "__class__": "Path"
+   },
+   {
+    "name": "/tmp/tmp7ou4ocpc.sv",
+    "__class__": "Path"
+   }
+  ],
+  "design_units": [
+   {
+    "owner": {
+     "name": "/home/juank/dev/verilog/monocycle/inst_memory_tb.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "inst_memory_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/juank/dev/verilog/monocycle/instmemory_tb.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "instmemory_tb",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/juank/dev/verilog/monocycle/alu.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "alu",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      1,
+      7
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/juank/dev/verilog/monocycle/pc.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "pc",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/juank/dev/verilog/monocycle/registerunit.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "registerunit",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/juank/dev/verilog/monocycle/inst_memory.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "instmemory",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   },
+   {
+    "owner": {
+     "name": "/home/juank/dev/verilog/monocycle/instmemory.sv",
+     "__class__": "Path"
+    },
+    "type_": "entity",
+    "name": {
+     "name": "instmemory",
+     "case_sensitive": true,
+     "__class__": "VerilogIdentifier"
+    },
+    "locations": [
+     [
+      0,
+      6
+     ]
+    ],
+    "__class__": "VerilogDesignUnit"
+   }
+  ],
+  "__class__": "Database"
+ },
+ "__version__": "0.7.4"
+}
