@@ -15,7 +15,6 @@ module mono (
   logic [31:0] ImmExt;  // IMMEDIATE EXTENDED
   logic NextPcSrc;  // BRANCH UNIT OUTPUT
 
-  /*    CONTROL UNIT    */
   logic RUWr;
   logic [3:0] ALUOp;
   logic [2:0] ImmSrc;
@@ -85,11 +84,15 @@ module mono (
   );
 
   branchunit mbranchunit (
-      .rs1(RU2),
-      .rs2(RU1),
+      .rs1(RU1),
+      .rs2(RU2),
       .BrOp(BrOp),
       .NextPcSrc(NextPcSrc)
   );
+
+  initial begin
+    BuPp4Mux <= 0;
+  end
 
   always @* begin
     PcPlus4 <= PcOutput + 4;
@@ -100,8 +103,8 @@ module mono (
     if (ALUASrc) ALUAMux <= PcOutput;
     else ALUAMux <= RU1;
 
-    if (ALUBSrc) ALUBMux <= RU2;
-    else ALUBMux <= ImmExt;
+    if (ALUBSrc) ALUBMux <= ImmExt;
+    else ALUBMux <= RU2;
 
     if (RUDataWrSrc == 2'b10) RUDataMux <= PcPlus4;
     else if (RUDataWrSrc == 2'b01) RUDataMux <= DataRd;

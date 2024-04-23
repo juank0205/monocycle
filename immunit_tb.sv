@@ -14,7 +14,7 @@ module immunit_tb;
     $dumpvars(0, immunit_tb);
 
     // Test case 1: Immediate type I
-    ImmInput = 25'b0000000011110000000000000;  //000000000101  5
+    ImmInput = 25'b0000000001110000000000000;  //000000000101  5
     ImmSrc = 3'b000;
     #10;  // Wait for 10 time units
     // Test case 2: Immediate type S

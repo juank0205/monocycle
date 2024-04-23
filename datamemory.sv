@@ -5,7 +5,7 @@ module datamemory (
     input logic [2:0] DMCtrl,
     output logic [31:0] DataRd
 );
-  logic [7:0] memory[31:0];
+  logic [7:0] memory[1023:0];
 
   always @* begin
     case (DMCtrl)
@@ -18,13 +18,13 @@ module datamemory (
     endcase
 
     if (DMWr)
+      #1
       if (DMCtrl == 3'b000) memory[Address] <= DataWr[7:0];
       else if (DMCtrl == 3'b001) begin
-        memory[Address] <= DataWr[7:0];
+        memory[Address]   <= DataWr[7:0];
         memory[Address+1] <= DataWr[15:8];
-      end
-      else if (DMCtrl == 3'b010) begin
-        memory[Address] <= DataWr[7:0];
+      end else if (DMCtrl == 3'b010) begin
+        memory[Address]   <= DataWr[7:0];
         memory[Address+1] <= DataWr[15:8];
         memory[Address+2] <= DataWr[23:16];
         memory[Address+3] <= DataWr[31:24];
