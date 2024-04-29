@@ -6,6 +6,6 @@ module instmemory (
   assign instruction = { memory[address], memory[address+1], memory[address+2], memory[address+3] };
 
   initial begin
-    $readmemh("all_instructions.mem", memory);
+    $readmemh("../bubblesort_formatted.mem", memory);
   end
 endmodule
