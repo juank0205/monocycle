@@ -23,7 +23,7 @@ module registerunit (
   end
 
   // Write data to the selected register on rising edge of the clock
-  always_ff @(posedge clk) begin
+  always_ff @(negedge clk) begin
     if (RuWr) begin
       // Write data to the selected register
       registers[rd] <= RuWrData;
