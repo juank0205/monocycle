@@ -6,6 +6,6 @@ module instmemory (
   assign instruction = { memory[address], memory[address+1], memory[address+2], memory[address+3] };
 
   initial begin
-    $readmemh("../test.mem", memory);
+    $readmemh("../pol.mem", memory);
   end
 endmodule

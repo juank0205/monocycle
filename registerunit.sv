@@ -22,12 +22,8 @@ module registerunit (
     registers[2] = 32'd512;
   end
 
-  // Write data to the selected register on rising edge of the clock
   always_ff @(negedge clk) begin
-    if (RuWr) begin
-      // Write data to the selected register
-      registers[rd] <= RuWrData;
-    end
+    if (RuWr && rd != 0) registers[rd] <= RuWrData;
   end
 
 endmodule

@@ -8,6 +8,7 @@ module controlunit (
     output logic ALUASrc,
     output logic ALUBSrc,
     output logic DMWr,
+    output logic DMRd,
     output logic [2:0] DMCtrl,
     output logic [4:0] BrOp,
     output logic [1:0] RUDataWrSrc
@@ -34,6 +35,7 @@ module controlunit (
   assign ALUASrc = OpCode[6] && OpCode != 7'b1100111;
   assign ALUBSrc = OpCode != 7'b0110011;
   assign DMWr = OpCode == 7'b0100011;
+  assign DMRd = OpCode == 7'b0000011;
   assign DMCtrl = Funct3;
   assign BrOp = {~OpCode[4] * OpCode[2], OpCode[6], Funct3[2], Funct3[1], Funct3[0]};
   assign RUDataWrSrc = {OpCode[6], ((~OpCode[6]) * (~OpCode[4]))};
